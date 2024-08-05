@@ -6,7 +6,7 @@ from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import JSONResponse
 from tensorflow.keras.preprocessing import image
 import numpy as np
-from typing import List
+from typing import List 
 
 app = FastAPI()
 
